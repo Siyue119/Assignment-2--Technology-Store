@@ -15,7 +15,7 @@ import java.util.*;
 //TODO - ensure that this class implements iSerializer
 //TODO - create 2 fields
 
-public class TechnologyDeviceAPI /* implements iSerializer */ {
+public class TechnologyDeviceAPI implements ISerializer {
     //TODO - create constructor
     public List<Technology> technologyList = new ArrayList<>();
     private File file;
